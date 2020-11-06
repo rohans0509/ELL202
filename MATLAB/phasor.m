@@ -1,6 +1,7 @@
 function [length,theta] = phasor(complexnumber)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%Converts complex number to array of length,theta (in deg)
+%   To use call function as [length,theta]=phasor(input) else it will only
+%   return the length value
 length=abs(complexnumber);
 theta=rad2deg(angle(complexnumber));
 end

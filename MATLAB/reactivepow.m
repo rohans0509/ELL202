@@ -4,5 +4,6 @@ function [output] =reactivepow(Vmax,Imax)
 Vvec=[real(Vmax),imag(Vmax),0];
 Ivec=[real(Imax),imag(Imax),0];
 output=norm(cross(Vvec,Ivec))/2;
+disp("Power uses max values")
 end
 

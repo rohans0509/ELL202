@@ -1,6 +1,6 @@
 function varargout = solvediff(Y,A,B,Y0)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%Solves for Y
+%   Input equation is Y'=AY+B
 syms sol(t);
 odes = diff(Y) == A*Y + B;
 initialcond=Y(0)==Y0;
