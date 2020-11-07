@@ -1,4 +1,4 @@
-function out= reverse(list)
+function out= reciprocal(list)
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 list=1./list;
